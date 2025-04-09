@@ -26,16 +26,6 @@ function setup() {
 
   noStroke();
 
-  // for (let i = 0; i < numCircles; i++) {
-  //   circles.push({
-  //     x: random(width),
-  //     y: random(height),
-  //     speedX: random(-2, 2),
-  //     speedY: random(-2, 2),
-  //     baseSize: random(20, 50),
-  //     pulseOffset: random(TWO_PI)
-  //   });
-  // }
 }
 
 
@@ -46,7 +36,7 @@ function draw() {
     if (scene < 2) {
       scene++;
     } else {
-      scene = 1;
+      scene = 1; b
     }
   }
 
