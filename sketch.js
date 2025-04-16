@@ -36,7 +36,7 @@ function draw() {
     if (scene < 2) {
       scene++;
     } else {
-      scene = 1; b
+      scene = 1;
     }
   }
 
